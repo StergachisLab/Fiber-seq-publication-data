@@ -20,10 +20,6 @@ The structure of the results within each of these folders is then uniform with t
 | GM12878/fiber-calls/FIRE.bed.gz               | Individual FIREs called from single molecule fiber-seq data               |
 | GM12878/trackHub/hub.txt                      | Track hub for visualizing all the FIRE results in the UCSC genome browser |
 
-## UCSC track hubs
-
-- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt)
-
 ## FDR FIRE peaks file
 
 Description of columns you will find in the FDR FIRE peaks file :
@@ -45,3 +41,7 @@ Description of columns you will find in the FDR FIRE peaks file :
 | FIRE_start_ssd | Standard deviation of the start of the FIREs in the peak |
 | FIRE_end_ssd | Standard deviation of the end of the FIREs in the peak |
 | pass_coverage | Whether the peak passes coverage filters |
+
+## UCSC track hubs
+
+- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt)
