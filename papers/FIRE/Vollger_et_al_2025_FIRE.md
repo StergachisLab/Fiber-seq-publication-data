@@ -1,4 +1,4 @@
-# Epigenetic data used in the FIRE publication
+# Epigenetic data used in <ins>F</ins>iber-seq <ins>I</ins>nferred <ins>R</ins>egulatory <ins>E</ins>lements (FIRE) publication
 
 All epigenetic data used in the FIRE publication is available on AWS as a public dataset at the following URL:
 
@@ -44,4 +44,8 @@ Description of columns you will find in the FDR FIRE peaks file :
 
 ## UCSC track hubs
 
+We include UCSC trackHubs for each sample using URLs with the following format:
+
 - [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt)
+
+We also have a description of the trackHub [here](https://s3-us-west-2.amazonaws.com/stergachis-public1/Mitchell/temp/FIRE/dev/trackHub/fire-description.html).
