@@ -22,25 +22,26 @@ The structure of the results within each of these folders is then uniform with t
 
 ## FDR FIRE peaks file
 
-Description of columns you will find in the FDR FIRE peaks file :
-| Column | Description |
-| --- | --- |
-| #chrom | Chromosome of the peak |
-| peak_start | Start of the peak |
-| peak_end | End of the peak |
-| start | Start of the maximum of the peak |
-| end | End of the maximum of the peak |
-| coverage | Coverage of the peak |
-| fire_coverage | Coverage of the FIREs in the peak |
-| score | FIRE score of the peak (see [methods](methods/aggregation.md)) |
-| \*{H1,H2} | Repeats of previous columns but specific for the two haplotypes |
-| FDR | False discovery rate of the peak |
-| log_FDR | -10\*log10 of the FDR |
-| FIRE_size_mean | Mean size of the FIREs in the peak |
-| FIRE_size_ssd | Standard deviation of the size of the FIREs in the peak |
-| FIRE_start_ssd | Standard deviation of the start of the FIREs in the peak |
-| FIRE_end_ssd | Standard deviation of the end of the FIREs in the peak |
-| pass_coverage | Whether the peak passes coverage filters |
+Description of columns you will find in the FDR FIRE peaks file:
+
+| Column         | Description                                                     |
+| -------------- | --------------------------------------------------------------- |
+| #chrom         | Chromosome of the peak                                          |
+| peak_start     | Start of the peak                                               |
+| peak_end       | End of the peak                                                 |
+| start          | Start of the maximum of the peak                                |
+| end            | End of the maximum of the peak                                  |
+| coverage       | Coverage of the peak                                            |
+| fire_coverage  | Coverage of the FIREs in the peak                               |
+| score          | FIRE score of the peak (see [methods](methods/aggregation.md))  |
+| \*{H1,H2}      | Repeats of previous columns but specific for the two haplotypes |
+| FDR            | False discovery rate of the peak                                |
+| log_FDR        | -10\*log10 of the FDR                                           |
+| FIRE_size_mean | Mean size of the FIREs in the peak                              |
+| FIRE_size_ssd  | Standard deviation of the size of the FIREs in the peak         |
+| FIRE_start_ssd | Standard deviation of the start of the FIREs in the peak        |
+| FIRE_end_ssd   | Standard deviation of the end of the FIREs in the peak          |
+| pass_coverage  | Whether the peak passes coverage filters                        |
 
 ## UCSC track hubs
 
