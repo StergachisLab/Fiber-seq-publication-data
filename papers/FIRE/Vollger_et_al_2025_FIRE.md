@@ -33,7 +33,7 @@ Description of columns you will find in the FDR FIRE peaks file:
 | end            | End of the maximum of the peak                                  |
 | coverage       | Coverage of the peak                                            |
 | fire_coverage  | Coverage of the FIREs in the peak                               |
-| score          | FIRE score of the peak (see [methods](methods/aggregation.md))  |
+| score          | FIRE score of the peak                                          |
 | \*{H1,H2}      | Repeats of previous columns but specific for the two haplotypes |
 | FDR            | False discovery rate of the peak                                |
 | log_FDR        | -10\*log10 of the FDR                                           |
