@@ -24,29 +24,57 @@ The structure of the results within each of these folders is then uniform with t
 
 Description of columns you will find in the FDR FIRE peaks file:
 
-| Column         | Description                                                     |
-| -------------- | --------------------------------------------------------------- |
-| #chrom         | Chromosome of the peak                                          |
-| peak_start     | Start of the peak                                               |
-| peak_end       | End of the peak                                                 |
-| start          | Start of the maximum of the peak                                |
-| end            | End of the maximum of the peak                                  |
-| coverage       | Coverage of the peak                                            |
-| fire_coverage  | Coverage of the FIREs in the peak                               |
-| score          | FIRE score of the peak                                          |
-| \*{H1,H2}      | Repeats of previous columns but specific for the two haplotypes |
-| FDR            | False discovery rate of the peak                                |
-| log_FDR        | -10\*log10 of the FDR                                           |
-| FIRE_size_mean | Mean size of the FIREs in the peak                              |
-| FIRE_size_ssd  | Standard deviation of the size of the FIREs in the peak         |
-| FIRE_start_ssd | Standard deviation of the start of the FIREs in the peak        |
-| FIRE_end_ssd   | Standard deviation of the end of the FIREs in the peak          |
-| pass_coverage  | Whether the peak passes coverage filters                        |
+| Column         | Description                                                             |
+| -------------- | ----------------------------------------------------------------------- |
+| #chrom         | Chromosome of the peak                                                  |
+| peak_start     | Start of the peak                                                       |
+| peak_end       | End of the peak                                                         |
+| start          | Start of the maximum of the peak                                        |
+| end            | End of the maximum of the peak                                          |
+| coverage       | Coverage of the peak                                                    |
+| fire_coverage  | Coverage of the FIREs in the peak                                       |
+| score          | FIRE score of the peak                                                  |
+| \*{H1,H2}      | Repeats of previous columns but specific for each of the two haplotypes |
+| FDR            | False discovery rate of the peak                                        |
+| log_FDR        | -10\*log10 of the FDR                                                   |
+| FIRE_size_mean | Mean size of the FIREs in the peak                                      |
+| FIRE_size_ssd  | Standard deviation of the size of the FIREs in the peak                 |
+| FIRE_start_ssd | Standard deviation of the start of the FIREs in the peak                |
+| FIRE_end_ssd   | Standard deviation of the end of the FIREs in the peak                  |
+| pass_coverage  | Whether the peak passes coverage filters                                |
 
 ## UCSC track hubs
 
-We include UCSC trackHubs for each sample using URLs with the following format:
+We include UCSC trackHubs for each sample at the following URL and we also have a description of the trackHub [here](https://s3-us-west-2.amazonaws.com/stergachis-public1/Mitchell/temp/FIRE/dev/trackHub/fire-description.html):
 
-- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt)
-
-We also have a description of the trackHub [here](https://s3-us-west-2.amazonaws.com/stergachis-public1/Mitchell/temp/FIRE/dev/trackHub/fire-description.html).
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/30X_GM12878/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/K562-PS00075/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00338_COLO829BL_1/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00356_COLO829BL_2/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/COLO_T_2_PS00_418_451_488/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00272/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00321/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00327/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00381/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00382/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00383/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00384/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00389/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00392/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00404/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00422/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00456/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00459/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00465/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00468/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00471/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00476/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00479/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00482/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00485/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-liver/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-lung/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN318336_PS00189/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN633333_PS00115/trackHub/hub.txt
+- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/HG002/trackHub/hub.txt
