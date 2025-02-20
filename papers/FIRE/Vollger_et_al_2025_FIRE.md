@@ -47,34 +47,36 @@ Description of columns you will find in the FDR FIRE peaks file:
 
 We include UCSC trackHubs for each sample at the following URL and we also have a description of the trackHub [here](https://s3-us-west-2.amazonaws.com/stergachis-public1/Mitchell/temp/FIRE/dev/trackHub/fire-description.html):
 
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/30X_GM12878/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/K562-PS00075/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00338_COLO829BL_1/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00356_COLO829BL_2/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/COLO_T_2_PS00_418_451_488/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00272/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00321/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00327/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00381/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00382/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00383/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00384/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00389/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00392/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00404/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00422/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00456/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00459/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00465/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00468/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00471/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00476/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00479/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00482/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00485/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-liver/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-lung/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN318336_PS00189/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN633333_PS00115/trackHub/hub.txt
-- https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/HG002/trackHub/hub.txt
+| Sample                    | Track hub URL                                                                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| GM12878                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/GM12878/trackHub/hub.txt                   |
+| 30X_GM12878               | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/30X_GM12878/trackHub/hub.txt               |
+| K562-PS00075              | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/K562-PS00075/trackHub/hub.txt              |
+| PS00338_COLO829BL_1       | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00338_COLO829BL_1/trackHub/hub.txt       |
+| PS00356_COLO829BL_2       | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00356_COLO829BL_2/trackHub/hub.txt       |
+| COLO_T_2_PS00_418_451_488 | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/COLO_T_2_PS00_418_451_488/trackHub/hub.txt |
+| PS00272                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00272/trackHub/hub.txt                   |
+| PS00321                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00321/trackHub/hub.txt                   |
+| PS00327                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00327/trackHub/hub.txt                   |
+| PS00381                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00381/trackHub/hub.txt                   |
+| PS00382                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00382/trackHub/hub.txt                   |
+| PS00383                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00383/trackHub/hub.txt                   |
+| PS00384                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00384/trackHub/hub.txt                   |
+| PS00389                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00389/trackHub/hub.txt                   |
+| PS00392                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00392/trackHub/hub.txt                   |
+| PS00404                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00404/trackHub/hub.txt                   |
+| PS00422                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00422/trackHub/hub.txt                   |
+| PS00456                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00456/trackHub/hub.txt                   |
+| PS00459                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00459/trackHub/hub.txt                   |
+| PS00465                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00465/trackHub/hub.txt                   |
+| PS00468                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00468/trackHub/hub.txt                   |
+| PS00471                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00471/trackHub/hub.txt                   |
+| PS00476                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00476/trackHub/hub.txt                   |
+| PS00479                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00479/trackHub/hub.txt                   |
+| PS00482                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00482/trackHub/hub.txt                   |
+| PS00485                   | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/PS00485/trackHub/hub.txt                   |
+| ST001-liver               | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-liver/trackHub/hub.txt               |
+| ST001-lung                | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/ST001-lung/trackHub/hub.txt                |
+| UDN318336_PS00189         | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN318336_PS00189/trackHub/hub.txt         |
+| UDN633333_PS00115         | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/UDN633333_PS00115/trackHub/hub.txt         |
+| HG002                     | https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/2024/Vollger_et_al/FIRE/HG002/trackHub/hub.txt                     |
