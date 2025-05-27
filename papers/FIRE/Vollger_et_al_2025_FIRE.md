@@ -2,11 +2,11 @@
 
 All epigenetic data used in the FIRE publication is available on AWS as a public dataset at the following URL:
 
-- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE])
+- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/])
 
 Results are organized at the top level by sample, e.g.:
 
-- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/GM12878](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/GM12878)
+- [https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/GM12878/](https://s3-us-west-1.amazonaws.com/stergachis-manuscript-data/index.html?prefix=2024/Vollger_et_al/FIRE/GM12878/)
 
 ## Structure of the results
 
@@ -45,7 +45,7 @@ Description of columns you will find in the FDR FIRE peaks file:
 
 ## UCSC track hubs
 
-We include UCSC trackHubs for each sample at the following URL and we also have a description of the trackHub [here](https://s3-us-west-2.amazonaws.com/stergachis-public1/Mitchell/temp/FIRE/dev/trackHub/fire-description.html):
+We include UCSC trackHubs for each sample at the following URL and we also have a description of the trackHub [here](https://raw.githubusercontent.com/fiberseq/FIRE/refs/heads/main/workflow/templates/fire-description.html):
 
 | Sample                    | Track hub URL                                                                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
